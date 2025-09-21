@@ -1,0 +1,15 @@
+your-club-website/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+└── images/
+    ├── club-logo.png
+    ├── hero-image-1.jpg
+    ├── news-thumb-1.jpg
+    ├── news-thumb-2.jpg
+    ├── club-logo-small.png
+    ├── opponent-logo.png
+    ├── jersey.png
+    └── scarf.png
