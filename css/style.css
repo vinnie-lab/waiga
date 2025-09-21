@@ -188,7 +188,7 @@ h3 { font-size: 1.5em; }
 .hamburger::after {
     content: '';
     display: block;
-    background-color: var(--primary-color);
+    background-color: var(--text-color-dark);
     height: 3px;
     width: 30px;
     border-radius: 3px;
@@ -488,6 +488,7 @@ h3 { font-size: 1.5em; }
         align-items: center;
         padding: 20px 0;
         box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+        color: #f8f8f8;
     }
 
     .main-nav.active {
@@ -509,6 +510,10 @@ h3 { font-size: 1.5em; }
         padding: 10px 0;
         display: block;
         font-size: 1.1em;
+        color: #FFD700;
+    }
+    .main-nav a:hover{
+        color:#e0b800;
     }
     .main-nav a::after {
         display: none; /* Hide underline on mobile menu */
